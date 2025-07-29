@@ -1,0 +1,58 @@
+export const projects = [
+  {
+    title: "HTTP URL Shortener microservice",
+    image: "/images/skills/react.svg",
+    description: "A personal portfolio website to showcase my work and skills.",
+    link: "https://github.com/demo/portfolio",
+    technologies: ["React", "Next.js", "TailwindCSS"],
+  },
+  {
+    title: "Task Manager App",
+    image: "/images/skills/node-js.svg",
+    description: "A fullstack task manager app with authentication and real-time updates.",
+    link: "https://github.com/demo/task-manager",
+    technologies: ["Node.js", "Express", "MongoDB", "React"],
+  },
+  {
+    title: "Weather Dashboard",
+    image: "/images/skills/typescriptLogoDisp.svg",
+    description: "A dashboard to display weather data using public APIs.",
+    link: "https://github.com/demo/weather-dashboard",
+    technologies: ["TypeScript", "API", "Chart.js"],
+  },
+  {
+    title: "E-commerce Platform",
+    image: "/images/skills/nextjs.svg",
+    description: "A modern e-commerce platform with payment integration.",
+    link: "https://github.com/demo/ecommerce",
+    technologies: ["Next.js", "Stripe", "PostgreSQL"],
+  },
+  {
+    title: "Chat Application",
+    image: "/images/skills/mongodb.svg",
+    description: "Real-time chat app with user authentication and file sharing.",
+    link: "https://github.com/demo/chat-app",
+    technologies: ["Socket.io", "MongoDB", "Express"],
+  },
+  {
+    title: "Data Visualization Tool",
+    image: "/images/skills/django.svg",
+    description: "Interactive data visualization dashboard with multiple chart types.",
+    link: "https://github.com/demo/data-viz",
+    technologies: ["Django", "D3.js", "Python"],
+  },
+  {
+    title: "Mobile Fitness App",
+    image: "/images/skills/javascript.svg",
+    description: "Cross-platform fitness tracking app with workout plans.",
+    link: "https://github.com/demo/fitness-app",
+    technologies: ["React Native", "Firebase", "Redux"],
+  },
+  {
+    title: "AI Image Generator",
+    image: "/images/skills/three.svg",
+    description: "AI-powered image generation tool using machine learning.",
+    link: "https://github.com/demo/ai-image-gen",
+    technologies: ["Python", "TensorFlow", "Flask"],
+  },
+]; 
