@@ -14,7 +14,7 @@ interface ProjectCardProps {
 }
 
 export default function PolygonProjects() {
-  const [swiper, setSwiper] = useState(null);
+  const [swiper, setSwiper] = useState<Swiper | null>(null);
 
   useEffect(() => {
     const swiperInstance = new Swiper(".projects-swiper", {
@@ -93,7 +93,7 @@ function ProjectCard({ project }: ProjectCardProps) {
       <p className="text-gray-300 text-sm mb-4 line-clamp-3 flex-grow">{project.description}</p>
       
       <div className="flex flex-wrap gap-2 mb-4">
-        {project.technologies.slice(0, 3).map((tech, i) => (
+        {project.technologies.slice(0, 3).map((tech: string, i: number) => (
           <span key={i} className="bg-gray-700/50 text-gray-300 px-2 py-1 rounded text-xs font-medium border border-gray-600/30">
             {tech}
           </span>
