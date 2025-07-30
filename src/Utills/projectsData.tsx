@@ -48,18 +48,5 @@ export const projects = [
     link: "https://github.com/abhinavsurya1/Neural-Network-Visualisation-Studio",
     technologies: ["TypeScript", "Visualization", "Neural Networks"],
   },
-  {
-    title: "Mobile Fitness App",
-    image: "/images/skills/javascript.svg",
-    description: "Cross-platform fitness tracking app with workout plans.",
-    link: "https://github.com/demo/fitness-app",
-    technologies: ["React Native", "Firebase", "Redux"],
-  },
-  {
-    title: "AI Image Generator",
-    image: "/images/skills/three.svg",
-    description: "AI-powered image generation tool using machine learning.",
-    link: "https://github.com/demo/ai-image-gen",
-    technologies: ["Python", "TensorFlow", "Flask"],
-  },
+
 ]; 
