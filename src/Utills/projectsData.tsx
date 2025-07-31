@@ -7,28 +7,28 @@ export const projects = [
     technologies: ["Streamlit", "PostgreSQL", "Docker", "Apache Airflow"],
   },
   {
-    title: "LogPulse – Distributed Log Aggregation System (Systems Engineer)",
+    title: "LogPulse – Distributed Log Aggregation System ",
     image: "/images/skills/node-js.svg", // Using node-js icon as a placeholder for system/CLI tools
     description: "Created a real-time log pipeline using TCP/IP and Unix-based agents. Engineered with C++, Python, Redis; optimized for in-memory stream processing. CLI monitoring with alerting and event tracking for production environments.",
     link: "https://github.com/abhinavsurya1/LogPulse",
     technologies: ["C++", "Python", "Redis", "TCP/IP"],
   },
   {
-    title: "Careerguide AI – Career Recommendation Engine (ML Developer)",
+    title: "Careerguide AI – Career Recommendation Engine ",
     image: "/images/skills/typescriptLogoDisp.svg", // Using TypeScript logo for frontend relevance
     description: "Constructed NLP-based engine using Scikit-learn + FastAPI for personalized career paths. Used cosine similarity on vectorized text to rank 20+ roles. Delivered insights via React + TypeScript frontend with bookmarking and PDF export.",
     link: "https://github.com/abhinavsurya1/Careerguide-AI",
     technologies: ["Scikit-learn", "FastAPI", "React", "TypeScript", "NLP"],
   },
   {
-    title: "GreenNova – Renewable Investment Platform (Full Stack Developer)",
+    title: "GreenNova – Renewable Investment Platform ",
     image: "/images/skills/nextjs.svg", // Using Next.js icon as a modern React-based full stack placeholder
     description: "Developed a scalable web app using React, TypeScript, and Vite, enabling users to invest in green projects. Integrated Stripe for payments, RainbowKit for wallet login, and TanStack React Query for smooth state management. Used Radix UI to implement consistent and accessible UI components across flows.",
     link: "https://github.com/abhinavsurya1/GreenNova-Invest-Hub",
     technologies: ["React", "TypeScript", "Vite", "Stripe", "RainbowKit", "TanStack React Query", "Radix UI"],
   },
   {
-    title: "PAYDAYzz – Job Matching Platform (Frontend & Backend Developer)",
+    title: "PAYDAYzz – Job Matching Platform ",
     image: "/images/Companies/paydayzz.png", // Using company logo for relevance
     description: "Built authentication, job listings, and profile flows using Django Templates, Bootstrap, and REST APIs. Designed responsive layouts and implemented real-time email triggers for job-candidate matching. Collaborated with stakeholders to refine UX and optimize workflows.",
     link: "https://github.com/abhinavsurya1/payday-website",
