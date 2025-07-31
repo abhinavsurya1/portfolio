@@ -28,7 +28,7 @@ export default function HexaSkills() {
       </div>
       <div className={polygonContainerClass}>
         <Polygon imageUrl="/images/skills/nextjs.svg" url="https://nextjs.org/" />
-        <Polygon imageUrl="/images/skills/gsap.svg" url="https://gsap.com/" />
+        <Polygon imageUrl="/images/skills/framer-motion.svg" url="https://www.framer.com/motion/" />
       </div>
 
       <div className={polygonContainerClass}>
